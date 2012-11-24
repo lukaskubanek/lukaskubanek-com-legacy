@@ -1,0 +1,17 @@
+@import "susy";
+
+$total-columns  : 12;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+.page {
+	@include container;
+	@include susy-grid-background;
+}
+
+.text {
+	margin-left: space(1);
+	@include span-columns(10);
+	background: red;
+}
