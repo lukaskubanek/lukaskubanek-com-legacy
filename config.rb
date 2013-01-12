@@ -5,6 +5,9 @@
 # Susy grids in Compass
 require 'susy'
 
+# Compass recipes
+require 'compass-recipes'
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

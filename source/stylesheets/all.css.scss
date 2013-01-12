@@ -1,17 +1,43 @@
 @import "susy";
+@import "recipes/layout/vertical-align/block";
 
 $total-columns  : 12;
 $column-width   : 4em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
+@include vertical-align-block-page;
+
+.v-align-block-wrapper {
+    @include vertical-align-block-wrapper;
+}
+
+.v-align-block {
+	@include vertical-align-block;
+}
+
+.v-align-block-fallback {
+	@include vertical-align-block-fallback;
+}
+
 .page {
+	@include leader(2);
+	@include trailer(2);
 	@include container;
 	@include susy-grid-background;
+	
+	// background: url('../images/background.jpg');
+	// background-size: 100%;
+	// height: 900px;
+
 }
 
 .text {
+	@include leader(2);
 	margin-left: space(1);
 	@include span-columns(10);
-	background: red;
+	background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 5px;
+    color: white;
 }
