@@ -1,10 +1,26 @@
----
-title: Welcome to Middleman
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <title>Lukáš Kubánek</title>
+    
+    <%= stylesheet_link_tag "normalize", "all" %>
+  </head>
+  
+  <body class="<%= page_classes %>">
+    <div class="page">
+      <div class="text">
+        <p><%= lorem.paragraph %></p>
+        <p><%= lorem.paragraph %></p>
+      </div>
+    </div>
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+    <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" %>
+    <%= javascript_include_tag "jquery.backstretch.min" %>
+    <script>$.backstretch("images/lukas.jpg");</script>
+  </body>
+</html>
