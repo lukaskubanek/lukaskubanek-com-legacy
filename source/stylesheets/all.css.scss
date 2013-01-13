@@ -17,3 +17,13 @@ body {
 	font-size: 0.9em;
 	line-height: 1.3em;
 }
+
+.about a {
+	color: #52D2E8;
+	text-decoration: none;
+}
+
+.about a:hover {
+	color: white;
+	background: #52D2E8;
+}
