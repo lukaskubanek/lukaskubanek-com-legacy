@@ -14,8 +14,9 @@
   <body class="<%= page_classes %>">
     <div class="page">
       <div class="text">
-        <p><%= lorem.paragraph %></p>
-        <p><%= lorem.paragraph %></p>
+        <% data.about.paragraphs.each do |p| %>
+  		<p><%= p %></p>
+		<% end %>
       </div>
     </div>
 
