@@ -10,21 +10,18 @@
     <title><%= data.page.title || "The Middleman" %></title>
     
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>">
-    <div class="v-align-block-wrapper">
-      <div class="v-align-block">
-        <div class="v-align-block-fallback">
-          <div class="page">
-            <div class="text">
-              <h1>Lukáš Kubánek</h1>
-              <%= lorem.paragraph %>
-            </div>
-          </div>
-        </div>
+    <div class="page">
+      <div class="text">
+        <p><%= lorem.paragraph %></p>
+        <p><%= lorem.paragraph %></p>
       </div>
     </div>
+
+    <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" %>
+    <%= javascript_include_tag "jquery.backstretch.min" %>
+    <script>$.backstretch("images/lukas.jpg");</script>
   </body>
 </html>
