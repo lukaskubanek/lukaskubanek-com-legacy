@@ -1,3 +1,11 @@
+html { 
+	background: url(../images/lukas.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 body {
 	font-family: 'Ubuntu Mono', sans-serif;
 }
