@@ -1,19 +1,71 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Exo+2:300&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Karla&subset=latin,latin-ext");
+
+@font-face {
+    font-family: "icons";
+    src: url("fonts/icons/icons.eot?69010183");
+    src: url("fonts/icons/icons.eot?69010183#iefix") format("embedded-opentype"),
+    url("fonts/icons/icons.woff2?69010183") format("woff2"),
+    url("fonts/icons/icons.woff?69010183") format("woff"),
+    url("fonts/icons/icons.ttf?69010183") format("truetype"),
+    url("fonts/icons/icons.svg?69010183#icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "icons", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+    content: "\e800";
+}
+
+.icon-github:before {
+    content: "\e801";
+}
+
+.icon-email:before {
+    content: "\e802";
+}
+
 /* layout */
 
-html, body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: stretch;
 }
 
 #container {
-    flex-basis: 100%;
+    flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
+
+    min-height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 
     display: flex;
     flex-direction: column;
@@ -33,7 +85,24 @@ body {
     margin-bottom: 20px;
 }
 
+h1#title {
+    padding-bottom: 10px;
+}
+
+#bio {
+    padding-bottom: 10px;
+}
+
+#bio p:not(:last-child) {
+    padding-bottom: 10px;
+}
+
 /* appearance */
+
+body {
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+}
 
 #photo {
     background: url("images/lukas.jpg") no-repeat;
@@ -41,18 +110,30 @@ body {
     border-radius: 50%;
 }
 
+h1#title {
+    font-family: "Exo 2", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#bio {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
 /* debug */
 
-#container {
+#twitter {
     background-color: gold;
 }
 
-#photo {
+#github {
     background-color: tomato;
 }
 
-#content {
-    background-color: beige;
+#email {
+    background-color: lightskyblue;
 }
 
 #footer {
