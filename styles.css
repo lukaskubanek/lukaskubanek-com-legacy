@@ -1,6 +1,8 @@
 /* fonts */
 
+/*noinspection CssUnknownTarget*/
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300&subset=latin,latin-ext");
+/*noinspection CssUnknownTarget*/
 @import url("https://fonts.googleapis.com/css?family=Karla&subset=latin,latin-ext");
 
 @font-face {
@@ -55,15 +57,17 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
 }
 
 #container {
-    flex-basis: auto;
+    flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
 
     min-height: 100%;
+    max-width: 340px;
+
     padding-left: 20px;
     padding-right: 20px;
 
@@ -85,6 +89,14 @@ body {
     margin-bottom: 20px;
 }
 
+#content {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    padding-bottom: 40px;
+}
+
 h1#title {
     padding-bottom: 10px;
 }
@@ -97,15 +109,57 @@ h1#title {
     padding-bottom: 10px;
 }
 
+ul#social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+ul#social-links > li {
+    flex-basis: 24px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul#social-links > li > i {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    display: block;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+ul#social-links > li > a {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    display: block;
+}
+
+#footer {
+    display: none;
+}
+
 /* appearance */
 
 body {
     font-family: "Karla", sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    color: #333333;
 }
 
 #photo {
-    background: url("images/lukas.jpg") no-repeat;
+    background: url("images/photo-small.jpg") no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
@@ -118,24 +172,29 @@ h1#title {
 }
 
 #bio {
-    font-size: 16px;
     line-height: 1.7;
+    text-align: justify;
 }
 
-/* debug */
-
-#twitter {
-    background-color: gold;
+#bio > p {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
-#github {
-    background-color: tomato;
+ul#social-links {
+    font-size: 18px;
 }
 
-#email {
-    background-color: lightskyblue;
+ul#social-links > li > a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 
-#footer {
-    background-color: blueviolet;
+ul#social-links > li > a:hover {
+    color: white;
+    background-color: #52D2E8;
+    border-bottom: none;
 }
