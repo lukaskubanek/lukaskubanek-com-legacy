@@ -1,0 +1,5 @@
+Font Awesome
+
+Author: Dave Gandy (@davegandy)
+License: SIL OFL 1.1 (http://fontawesome.io/license)
+Homepage: http://fortawesome.github.com/Font-Awesome/
