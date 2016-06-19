@@ -19,7 +19,9 @@
     font-style: normal;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+.twitter:before,
+.github:before,
+.email:before {
     font-family: "icons", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -37,15 +39,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {
+.twitter:before {
     content: "\e800";
 }
 
-.icon-github:before {
+.github:before {
     content: "\e801";
 }
 
-.icon-email:before {
+.email:before {
     content: "\e802";
 }
 
@@ -118,12 +120,16 @@ body {
     padding-bottom: 10px;
 }
 
-ul#social-links {
+ul#social {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+
     display: flex;
     flex-direction: column;
 }
 
-ul#social-links > li {
+ul#social > li {
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
@@ -136,17 +142,16 @@ ul#social-links > li {
     align-items: center;
 }
 
-ul#social-links > li > i {
+ul#social > li > div {
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
 
-    display: block;
     margin-top: 2px;
     margin-right: 6px;
 }
 
-ul#social-links > li > a {
+ul#social > li > a {
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
@@ -256,7 +261,7 @@ a:hover {
     -ms-hyphens: auto;
 }
 
-ul#social-links {
+ul#social > a {
     font-size: 18px;
 }
 
