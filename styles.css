@@ -75,7 +75,7 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
 
-    min-height: 100%;
+    min-height: 100vh;
     max-width: 340px;
 
     display: flex;
