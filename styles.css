@@ -185,7 +185,7 @@ ul#social-links > li > a {
         flex-grow: 1;
         flex-shrink: 0;
 
-        max-width: 365px;
+        max-width: 360px;
         padding: 30px;
     }
 
