@@ -1,0 +1,60 @@
+/* layout */
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#container {
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#photo {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+
+    height: 180px;
+    width: 180px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* appearance */
+
+#photo {
+    background: url("images/lukas.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* debug */
+
+#container {
+    background-color: gold;
+}
+
+#photo {
+    background-color: tomato;
+}
+
+#content {
+    background-color: beige;
+}
+
+#footer {
+    background-color: blueviolet;
+}
