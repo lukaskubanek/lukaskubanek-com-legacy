@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/lukaskubanek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lukaskubanek.com
+  * I am lukaskubanek (https://keybase.io/lukaskubanek) on keybase.
+  * I have a public key with fingerprint AC27 FB71 EDA6 37A4 2EB7  DCDC 6989 2B39 12E3 D15A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016f3c47407449ae89b5c53a254c105dec0c3aae3b0ebfd30c28a2a837ee2e02c20a",
+            "fingerprint": "ac27fb71eda637a42eb7dcdc69892b3912e3d15a",
+            "host": "keybase.io",
+            "key_id": "69892b3912e3d15a",
+            "kid": "01016f3c47407449ae89b5c53a254c105dec0c3aae3b0ebfd30c28a2a837ee2e02c20a",
+            "uid": "711b6e5647bbc31ee1594afc4c2de500",
+            "username": "lukaskubanek"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8b60f3a9f47fe8fda6d586a8a30669e1f0516b1e590ef289181381b69952719e0f"
+            ]
+        },
+        "service": {
+            "hostname": "lukaskubanek.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468829527,
+    "expire_in": 157680000,
+    "prev": "23214cb784a0c728c8b9f593f5462d9fb4dfc7d6d818bae28acdb85dfd1d998d",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJuAnicrZJ7iBVVHMfvtr52y1gE/yowDvSgtvWcM69zLpRESMSyQq1pssrtPH7n
+Os7uzN07c+9NZdsQylrCLIToKRvoH7E9RCWKErVVUKOgzG1Na4sWibbkYmwPDTuz
+1H/+2fwzzJnv73M+850zvri10N6yRu9t7d/TMC2njlypFdY+9/zarUgmejMqbkUR
+zN2gX0OalaJQoyLCBBPfOMoNXBy4LhfAuPSU5wjquYpgT4PCyhECHIlBGu1gRZmg
+gjkBAAVMFcUCdSITxmWoVqphnFmsUDQwMiCghe8EwqUgA6208jnjVDqcUHA08fLB
+jUmaT1g5KVLoChO7Zh9Kc3rXyP/P3rU5XECI9MHz3UBK5RAA4nFXGOUqqsHDOA+m
+UI3FANh0fy0SaVSTIoYIDXWiKtSTCPJu07BsxVNU7ENM+tg4ghs3MMCMLUJ7zBdM
+ONj3ORCDPeJLAh7HYCjjhBGHWQvOPRoQDtigDZZtd62Hag6eN3UNgy6VDFi/SjXJ
+EpX027cbs6ySFnOzbHMljzdAlv4FlWQYa/uv7EQdqmmYxKhIbFJlYU4mrs8YzRU6
+ETxeCatQCvOEF/gM2yvfB+oWSR1KXCUD5gqsAsoUk9x43DGe61PNjXS1UYH2NSNM
+CrDdKy2Zp40mmnOmUf5pg3Fi2RaaibJl2vZikdWqgIaOHl4/r9DSXlgw/7r8EBfa
+2zr+O9rNnQuvmjd717Ste+/W+2ZHoulNt89cOPVH17GTZ19zPnzh1a4/902/TQ+f
+3vbY0vc7zED07FMPjd6ycrH3/c75Wxp/n8D7z3/78E3HO+c13nrQHNn1xm2Tj+7/
+bd25Ow5N3NAnopeHlzUX3dk7OTR794Ul28ae2b3jSb3o4Gc7Ni0Rv1z68vqVu8tb
+/ip80nv513cvXvq57dhsaezA/YfCk831Lxa7X280X/qouPrzR1rLS69c7B76oWe0
+5+nf45vd4VeOj52tidmZvvF3Jk7ce3p08psbf6yjwSeWDY/0TOEV45dXbVBf3PPd
+Xav3dDxwZvuZ5qcrPt676iczvWt791fJ8AfR1/jquZGJBYPLz0/pyalopvAPm7dr
+8g==
+=Msit
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukaskubanek
+
+==================================================================
