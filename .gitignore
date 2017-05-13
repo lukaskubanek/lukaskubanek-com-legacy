@@ -1,2 +1,10 @@
+# Mac
 .DS_Store
+
+# IDE
 .idea
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
