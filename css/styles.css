@@ -188,7 +188,7 @@ ul#social > li > a {
         flex-grow: 1;
         flex-shrink: 0;
 
-        max-width: 360px;
+        max-width: 380px;
         padding: 30px;
     }
 
