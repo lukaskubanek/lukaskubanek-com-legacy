@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: home
 ---
+
+# Title
 
 It works!

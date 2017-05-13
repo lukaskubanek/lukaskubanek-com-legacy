@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div id="container">
+    <div id="photo"></div>
+    <main id="content">
+      {{ content }}
+    </main>
+    <footer id="footer">
+      &copy; {{ site.copyright.content.name }} // Photos &copy; <a href="{{ site.copyright.photos.link }}">{{ site.copyright.photos.name }}</a>
+    </footer>
+  </div>
+
+  <script src="scripts/analytics.js"></script>
+</body>
+</html>
