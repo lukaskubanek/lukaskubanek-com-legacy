@@ -10,7 +10,24 @@
   <div id="container">
     <div id="photo"></div>
     <main id="content">
-      {{ content }}
+      <h1 id="title">{{ site.name }}</h1>
+      <div id="bio">
+        {{ content }}
+      </div>
+      <ul id="social">
+          <li>
+              <div class="twitter"></div>
+              <a href="https://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a>
+          </li>
+          <li>
+              <div class="github"></div>
+              <a href="https://github.com/{{ site.github }}">{{ site.github }}</a>
+          </li>
+          <li>
+              <div class="email"></div>
+              <a href="mailto:lukas&#046;kubanek&#064;me&#046;com">lukas&#046;<!---->kubanek<!---->&#064;me&#046;com</a>
+          </li>
+      </ul>
     </main>
     <footer id="footer">
       &copy; {{ site.copyright.content.name }} // Photos &copy; <a href="{{ site.copyright.photos.link }}">{{ site.copyright.photos.name }}</a>
