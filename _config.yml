@@ -1,4 +1,4 @@
-# Configuration
+# Jekyll Configuration
 markdown: kramdown
 sass:
   style: compressed
@@ -8,7 +8,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Variables
+# Variables: Configuration
+google_analytics_id: UA-35412582-1
+
+# Variables: Content
 title: Lukáš Kubánek - personal website
 email: lukas.kubanek@me.com
 twitter: kubanekl
