@@ -6,7 +6,7 @@ exclude:
   - .gitignore
   - README.md
   - Gemfile
-  - Gemfile.lock
+  - Gemfile.lock  
 
 # Variables: Configuration
 google_analytics_id: UA-35412582-1
@@ -14,7 +14,9 @@ google_analytics_id: UA-35412582-1
 # Variables: Content
 title: Lukáš Kubánek - personal website
 name: Lukáš Kubánek
-email: lukas.kubanek@me.com
+email:
+  link: lukas&#046;kubanek&#064;me&#046;com
+  text: lukas&#046;<!---->kubanek<!---->&#064;me&#046;com
 twitter: kubanekl
 github: lukaskubanek
 copyright: 
