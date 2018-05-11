@@ -10,6 +10,6 @@ My focus lies in development for Apple platforms (in particular Mac and iOS) and
 
 Currently, I’m working on a diagramming application together with [Sherpa.Dresden](https://sherpa-dresden.de). More details about this project will be revealed soon.
 
-Besides technology, I’m interested in personal development and minimalism. Furthermore, I’m a member of the Impact Hub community in Dresden.
+Besides technology, I'm interested in personal development and minimalism. I also like [hiking](https://www.komoot.com/user/30529433549) and playing volleyball and badminton.
 
 Feel free to get in touch with me.
