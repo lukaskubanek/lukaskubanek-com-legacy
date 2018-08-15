@@ -2,7 +2,7 @@
 layout: home
 ---
   
-Hi there, my name is Lukáš. I’m a software developer from the Czech Republic living in Dresden, Germany.
+Hi there, my name is Lukáš. I’m a software developer from the Czech Republic living in Berlin, Germany.
 
 I’m passionate about building software architectures, finding proper abstractions for given domains and keeping things clean and consistent.
 
